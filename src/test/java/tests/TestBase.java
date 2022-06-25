@@ -46,7 +46,7 @@ public class TestBase {
         logOutTab.click();
     }
 
-    private void type(By locator) {
+    public void type(By locator) {
         WebElement element = wd.findElement(locator);
         element.click();
    }
