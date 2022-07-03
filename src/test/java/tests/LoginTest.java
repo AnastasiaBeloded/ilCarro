@@ -17,7 +17,7 @@ public class LoginTest extends TestBase{
     public void loginSuccess(){
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("noa@gmail.com","Nnoa12345$");
-        app.getHelperUser().submitLogin();
+        app.getHelperUser().submit();
         app.getHelperUser().logOut();
 
     }
@@ -25,7 +25,7 @@ public class LoginTest extends TestBase{
     public void loginNegativeTestWrongEmail(){
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("noam@gmail.com","Nnoa12345$");
-        app.getHelperUser().submitLogin();
+        app.getHelperUser().submit();
     }
 
 
