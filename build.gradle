@@ -12,6 +12,15 @@ repositories {
 dependencies {
     implementation 'org.seleniumhq.selenium:selenium-java:4.2.2'
     implementation 'org.testng:testng:7.5'
+
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.24'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
+
+
+
 }
 
 test {

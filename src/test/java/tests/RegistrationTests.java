@@ -2,6 +2,7 @@ package tests;
 
 import models.User;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -26,10 +27,26 @@ public class RegistrationTests extends TestBase{
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().termsOfUseXY();
         app.getHelperUser().submit();
-        Assert.assertEquals(app.getMessage(),"Registered");
+        Assert.assertEquals(app.getHelperUser().getMessage(),"Registered");
+
+
+    }
+
+    @Test
+
+    public void registrationWrongPasswordFormatSize(){
+        User user = new User().setName("Zoya").setLastName("Snow").setEmail("zoya@gmail.com").setPassword("Zoa");
+        app.getHelperUser().openRegistrationForm();
+        app.getHelperUser().fillRegistrationForm(user);
+        app.getHelperUser().termsOfUseXY();
+        Assert.assertTrue(app.getHelperUser().isErrorPasswordSizeDisplayed());
+        Assert.assertTrue(app.getHelperUser().isErrorPasswordFormatDisplayed());
+        Assert.assertTrue(app.getHelperUser().isYallaButtonNotActive());
+
+    }
+
+    @AfterMethod
+    public void postCondition(){
         app.getHelperUser().clickOk();
-
-
-
     }
 }

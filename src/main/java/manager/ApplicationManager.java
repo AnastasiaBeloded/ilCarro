@@ -12,6 +12,7 @@ public class ApplicationManager {
 
     WebDriver wd;
     HelperUser helperUser;
+    HelperCar car;
 
     public void init(){
 
@@ -19,6 +20,7 @@ public class ApplicationManager {
         wd.navigate().to("https://ilcarro-1578153671498.web.app/search");
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        car = new HelperCar(wd);
 
         helperUser = new HelperUser(wd);
     }
@@ -32,11 +34,9 @@ public class ApplicationManager {
         return helperUser;
     }
 
-    public String getMessage() {
-        new WebDriverWait(wd,Duration.ofSeconds(5))
-                .until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
-        String message = wd.findElement(By.cssSelector("div.dialog-container h1")).getText();
 
-        return message;
+
+    public HelperCar car() {
+        return car;
     }
 }
