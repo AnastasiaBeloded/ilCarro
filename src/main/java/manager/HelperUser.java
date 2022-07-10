@@ -30,6 +30,12 @@ public class HelperUser extends HelperBase {
         type(By.cssSelector("#password"), password);//type(By.id("password"),password);
     }
 
+    private void fillLoginForm(User user) {
+        type(By.cssSelector("#email"), user.getEmail());
+        type(By.cssSelector("#password"), user.getPassword());
+
+    }
+
 
     public void logOut() {
         click(By.cssSelector("div[class='header'] a:nth-child(5)"));
@@ -85,19 +91,11 @@ public class HelperUser extends HelperBase {
     }
 
     public void clickOk() {
-        if(isElementPresent(By.xpath("//button[text()='Ok']"))) {
+        if (isElementPresent(By.xpath("//button[text()='Ok']"))) {
             click(By.xpath("//button[text()='Ok']"));
         }
     }
 
-    public String getMessage() {
-        // pause(10000);
-        new WebDriverWait(wd, Duration.ofSeconds(5))
-                .until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
-        String message = wd.findElement(By.cssSelector("div.dialog-container h1")).getText();
-
-        return message;
-    }
 
     public boolean isErrorPasswordFormatDisplayed() {
 
@@ -113,12 +111,21 @@ public class HelperUser extends HelperBase {
         return new WebDriverWait(wd, Duration.ofSeconds(5))
                 .until(ExpectedConditions
                         .textToBePresentInElement(wd.findElement(By.cssSelector("div.error div:first-child")),
-                               "Password must contain minimum 8 symbols" ));
+                                "Password must contain minimum 8 symbols"));
     }
 
     public boolean isYallaButtonNotActive() {
-       boolean disabled = isElementPresent(By.cssSelector("button[disabled]"));
-       boolean enabled = wd.findElement(By.cssSelector("[type=submit]")).isEnabled();
-        return disabled&&!enabled;
+        boolean disabled = isElementPresent(By.cssSelector("button[disabled]"));
+        boolean enabled = wd.findElement(By.cssSelector("[type=submit]")).isEnabled();
+        return disabled && !enabled;
     }
+
+    public void login(User user) {
+        openLoginForm();
+        fillLoginForm(user);
+        submit();
+        clickOk();
+    }
+
+
 }

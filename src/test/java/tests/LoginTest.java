@@ -30,9 +30,9 @@ public class LoginTest extends TestBase{
         app.getHelperUser().submit();
     }
 
-    @AfterMethod
-    public void postCondition(){
-        app.getHelperUser().clickOk();
-    }
+  //  @AfterMethod
+//    public void postCondition(){
+   //     app.getHelperUser().clickOk();
+   // }
 
 }

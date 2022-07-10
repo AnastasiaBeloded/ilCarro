@@ -1,8 +1,10 @@
 package manager;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class HelperBase {
 
@@ -21,8 +23,10 @@ public class HelperBase {
         }
     }
     public void submit() {
+        new WebDriverWait(wd, Duration.ofSeconds(5))
+                .until(ExpectedConditions.elementToBeClickable(wd.findElement(By.cssSelector("button[type='submit']"))));
         wd.findElement(By.cssSelector("button[type='submit']")).click();
-        click(By.cssSelector("button[type='button']"));
+
     }
 
     public void click(By locator){
@@ -38,5 +42,20 @@ public class HelperBase {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+    public String getMessage() {
+        // pause(10000);
+        new WebDriverWait(wd, Duration.ofSeconds(5))
+                .until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
+        String message = wd.findElement(By.cssSelector("div.dialog-container h1")).getText();
+
+        return message;
+    }
+
+    public void jsexample(){
+        JavascriptExecutor js =(JavascriptExecutor) wd;
+        js.executeScript("document.querySelector('#name').value='Lola';");
+        js.executeScript("document.querySelector('#terms-of-use').checked=true;");
+        js.executeScript("document.querySelector('button[type=\"submit\"]').click");
     }
 }
