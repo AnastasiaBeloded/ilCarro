@@ -27,7 +27,10 @@ public class HelperUser extends HelperBase {
 
     public void fillLoginForm(String email, String password) {
         type(By.cssSelector("#email"), email);//type(By.id("email"),email);
-        type(By.cssSelector("#password"), password);//type(By.id("password"),password);
+        takeScreenShots("src/test/screenshots/screen-1.png");
+        type(By.cssSelector("#p"), password);//type(By.id("password"),password);
+
+
     }
 
     private void fillLoginForm(User user) {
@@ -58,10 +61,10 @@ public class HelperUser extends HelperBase {
 
     public void fillRegistrationForm(User user) {
 
-        type(By.id("name"), user.getName());
-        type(By.id("lastName"), user.getLastName());
-        type(By.id("email"), user.getEmail());
-        type(By.id("password"), user.getPassword());
+        type(By.id("name"),user.getName());
+        type(By.id("lastName"),user.getLastName());
+        type(By.id("email"),user.getEmail());
+        type(By.id("password"),user.getPassword());
 
     }
 

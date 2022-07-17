@@ -1,0 +1,20 @@
+18:52:19.500  INFO  manager.ApplicationManager - All tests run in chrome browser
+18:52:20.863  INFO  manager.ApplicationManager - Current Url---->https://ilcarro-1578153671498.web.app/search
+18:52:25.906  INFO  tests.LoginTest - Test stars with email: noa@gmail.com and password: Nnoa12345$
+18:52:25.906  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div[class='header'] a:nth-child(6)
+18:52:25.929  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div[class='header'] a:nth-child(6)
+18:52:25.984  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: #email
+18:52:26.008  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: #email
+18:52:26.652  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: #password
+18:52:26.671  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: #password
+18:52:27.274  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[type='submit']
+18:52:27.292  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[type='submit']
+18:52:27.334  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[type='submit']
+18:52:27.354  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[type='submit']
+18:52:27.389  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div.dialog-container
+18:52:28.347  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div.dialog-container
+18:52:28.366  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div.dialog-container h1
+18:52:28.395  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div.dialog-container h1
+18:52:28.413  INFO  tests.LoginTest - Test passed
+18:52:28.436  INFO  manager.MyListener - WebDriver start find element---->By.xpath: //button[text()='Ok']
+18:52:28.454  INFO  manager.MyListener - WebDriver found element by locator---->By.xpath: //button[text()='Ok']

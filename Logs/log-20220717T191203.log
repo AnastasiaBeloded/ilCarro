@@ -1,0 +1,18 @@
+19:12:06.044  INFO  manager.ApplicationManager - All tests run in chrome browser
+19:12:07.465  INFO  manager.ApplicationManager - Current Url---->https://ilcarro-1578153671498.web.app/search
+19:12:12.554  INFO  tests.LoginTest - Test stars with email: noa@gmail.com and password: Nnoa12345$
+19:12:12.555  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div[class='header'] a:nth-child(6)
+19:12:12.579  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div[class='header'] a:nth-child(6)
+19:12:12.632  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: #email
+19:12:12.683  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: #email
+19:12:13.335  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: #p
+19:12:18.402  INFO  manager.MyListener - The name of method with error-->findElement
+19:12:18.405  INFO  manager.MyListener - We have a problem--->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#p"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-O54QV38', ip: '192.168.14.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2654f4dba3779d7f24d2a18e7c93a8eb, findElement {using=css selector, value=#p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.27 (df4a85108ffa..., userDataDir: C:\Users\allan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64450}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64450/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2654f4dba3779d7f24d2a18e7c93a8eb
