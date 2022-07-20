@@ -1,0 +1,24 @@
+20:11:33.666  INFO  manager.ApplicationManager - All tests run in chrome browser
+20:11:37.707  INFO  manager.ApplicationManager - Current Url---->https://ilcarro-1578153671498.web.app/search
+20:11:37.734  INFO  manager.MyListener - WebDriver start find element---->By.id: city
+20:11:37.762  INFO  manager.MyListener - WebDriver found element by locator---->By.id: city
+20:11:38.879  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: .pac-item
+20:11:38.898  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: .pac-item
+20:11:39.441  INFO  manager.MyListener - WebDriver start find element---->By.id: dates
+20:11:39.468  INFO  manager.MyListener - WebDriver found element by locator---->By.id: dates
+20:11:39.559  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[aria-label='Next month']
+20:11:39.587  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[aria-label='Next month']
+20:11:39.641  INFO  manager.MyListener - WebDriver start find element---->By.xpath: //div[text()=' 10 ']
+20:11:39.663  INFO  manager.MyListener - WebDriver found element by locator---->By.xpath: //div[text()=' 10 ']
+20:11:39.719  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[aria-label='Next month']
+20:11:39.738  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[aria-label='Next month']
+20:11:39.791  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[aria-label='Next month']
+20:11:39.808  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[aria-label='Next month']
+20:11:39.842  INFO  manager.MyListener - WebDriver start find element---->By.xpath: //div[text()=' 20 ']
+20:11:39.859  INFO  manager.MyListener - WebDriver found element by locator---->By.xpath: //div[text()=' 20 ']
+20:11:39.908  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[type='submit']
+20:11:39.927  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[type='submit']
+20:11:39.969  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[type='submit']
+20:11:39.997  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[type='submit']
+20:11:41.129  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: .logo
+20:11:41.146  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: .logo

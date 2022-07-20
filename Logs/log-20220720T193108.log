@@ -1,0 +1,8 @@
+19:31:10.926  INFO  manager.ApplicationManager - All tests run in chrome browser
+19:31:13.031  INFO  manager.ApplicationManager - Current Url---->https://ilcarro-1578153671498.web.app/search
+19:31:13.060  INFO  manager.MyListener - WebDriver start find element---->By.id: city
+19:31:13.084  INFO  manager.MyListener - WebDriver found element by locator---->By.id: city
+19:31:14.193  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: .pac-item
+19:31:14.214  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: .pac-item
+19:31:14.773  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: .logo
+19:31:14.815  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: .logo
