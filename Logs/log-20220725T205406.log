@@ -1,0 +1,50 @@
+20:54:10.924  INFO  manager.ApplicationManager - All tests run in chrome browser
+20:54:12.751  INFO  manager.ApplicationManager - Current Url---->https://ilcarro-1578153671498.web.app/search
+20:54:17.818  INFO  manager.MyListener - The name of method with error-->executeScript
+20:54:17.822  INFO  manager.MyListener - We have a problem--->org.openqa.selenium.JavascriptException: TypeError: document.querySelector(...) is null
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-O54QV38', ip: '192.168.14.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e4107d00-c6b6-4297-b3f7-d803d1d13056, executeScript {script=document.querySelector('#terms-of-use').click();, args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:51215, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 24364, moz:profile: C:\Users\allan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:51215/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e4107d00-c6b6-4297-b3f7-d803d1d13056
+20:54:27.854  INFO  manager.MyListener - The name of method with error-->executeScript
+20:54:27.854  INFO  manager.MyListener - We have a problem--->org.openqa.selenium.JavascriptException: TypeError: document.querySelector(...) is null
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-O54QV38', ip: '192.168.14.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e4107d00-c6b6-4297-b3f7-d803d1d13056, executeScript {script=document.querySelector('#terms-of-use').click();, args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:51215, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 24364, moz:profile: C:\Users\allan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:51215/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e4107d00-c6b6-4297-b3f7-d803d1d13056
+20:54:37.886  INFO  manager.MyListener - The name of method with error-->executeScript
+20:54:37.886  INFO  manager.MyListener - We have a problem--->org.openqa.selenium.JavascriptException: TypeError: document.querySelector(...) is null
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-O54QV38', ip: '192.168.14.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e4107d00-c6b6-4297-b3f7-d803d1d13056, executeScript {script=document.querySelector('#terms-of-use').click();, args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:51215, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 24364, moz:profile: C:\Users\allan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:51215/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e4107d00-c6b6-4297-b3f7-d803d1d13056
+20:54:47.914  INFO  manager.MyListener - The name of method with error-->executeScript
+20:54:47.914  INFO  manager.MyListener - We have a problem--->org.openqa.selenium.JavascriptException: TypeError: document.querySelector(...) is null
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-O54QV38', ip: '192.168.14.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e4107d00-c6b6-4297-b3f7-d803d1d13056, executeScript {script=document.querySelector('#terms-of-use').click();, args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:51215, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 24364, moz:profile: C:\Users\allan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:51215/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e4107d00-c6b6-4297-b3f7-d803d1d13056
+20:54:57.938  INFO  manager.MyListener - The name of method with error-->executeScript
+20:54:57.938  INFO  manager.MyListener - We have a problem--->org.openqa.selenium.JavascriptException: TypeError: document.querySelector(...) is null
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-O54QV38', ip: '192.168.14.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e4107d00-c6b6-4297-b3f7-d803d1d13056, executeScript {script=document.querySelector('#terms-of-use').click();, args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:51215, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 24364, moz:profile: C:\Users\allan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:51215/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e4107d00-c6b6-4297-b3f7-d803d1d13056
+20:55:07.795  INFO  manager.MyListener - The name of method with error-->findElements
+20:55:07.795  INFO  manager.MyListener - We have a problem--->org.openqa.selenium.WebDriverException: TypeError: browsingContext.currentWindowGlobal is null
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-O54QV38', ip: '192.168.14.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e4107d00-c6b6-4297-b3f7-d803d1d13056, findElements {using=css selector, value=a[href^='/logout']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:51215, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 24364, moz:profile: C:\Users\allan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:51215/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e4107d00-c6b6-4297-b3f7-d803d1d13056

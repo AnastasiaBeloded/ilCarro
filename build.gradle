@@ -25,5 +25,33 @@ dependencies {
 }
 
 test {
-    useTestNG()
+    useTestNG()// ./gradlew clean test
+
+}
+task reg(type:Test){
+    useTestNG(){
+
+        def groups = System.getProperty('groups')
+        if(groups !=null){
+            includeGroups groups
+        }
+
+        def suite = System.getProperty('suite','')
+        if(suite.equals('login')){
+            suites 'src/test/resources/login.xml'//  ./gradlew -Dsuite=login reg
+        }else if(suite.equals('reg')){
+            suites 'src/test/resources/reg.xml'// ./gradlew clean -Pbrowser=firefox -Dsuite=reg reg
+
+        }else {
+            suites 'src/test/resources/testng.xml'
+        }
+
+
+
+        if(project.hasProperty('browser')){
+            systemProperty 'browser',"${browser}"
+        }
+    }// ./gradlew clean -Pbrowser=firefox reg
+    // ./gradlew clean  reg
+
 }

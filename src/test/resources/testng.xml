@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suites" verbose="1" >
+    <test name="reg" >
+        <classes>
+            <class name="tests.LoginTest" />
+            <class name="tests.RegistrationTests"></class>
+            <class name="tests.AddNewCar"></class>
+            <class name="tests.SearchTests"></class>
+        </classes>
+    </test>
+
+</suite>

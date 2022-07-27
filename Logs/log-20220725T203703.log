@@ -1,0 +1,22 @@
+20:37:08.275  INFO  manager.ApplicationManager - All tests run in chrome browser
+20:37:10.092  INFO  manager.ApplicationManager - Current Url---->https://ilcarro-1578153671498.web.app/search
+20:37:15.143  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div[class='header'] a:nth-child(5)
+20:37:15.161  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div[class='header'] a:nth-child(5)
+20:37:15.415  INFO  manager.MyListener - WebDriver start find element---->By.id: name
+20:37:15.431  INFO  manager.MyListener - WebDriver found element by locator---->By.id: name
+20:37:16.178  INFO  manager.MyListener - WebDriver start find element---->By.id: lastName
+20:37:16.192  INFO  manager.MyListener - WebDriver found element by locator---->By.id: lastName
+20:37:16.934  INFO  manager.MyListener - WebDriver start find element---->By.id: email
+20:37:16.946  INFO  manager.MyListener - WebDriver found element by locator---->By.id: email
+20:37:17.693  INFO  manager.MyListener - WebDriver start find element---->By.id: password
+20:37:17.713  INFO  manager.MyListener - WebDriver found element by locator---->By.id: password
+20:37:18.456  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[type='submit']
+20:37:18.468  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[type='submit']
+20:37:24.039  INFO  manager.MyListener - The name of method with error-->findElements
+20:37:24.039  INFO  manager.MyListener - We have a problem--->org.openqa.selenium.WebDriverException: TypeError: browsingContext.currentWindowGlobal is null
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-O54QV38', ip: '192.168.14.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [60d029c7-09ef-4946-a1cd-06aaff058073, findElements {using=xpath, value=//button[text()='Ok']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:60381, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 23256, moz:profile: C:\Users\allan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:60381/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 60d029c7-09ef-4946-a1cd-06aaff058073

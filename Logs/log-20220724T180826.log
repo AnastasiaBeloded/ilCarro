@@ -1,0 +1,25 @@
+18:08:31.209  INFO  manager.ApplicationManager - All tests run in chrome browser
+18:08:33.557  INFO  manager.ApplicationManager - Current Url---->https://ilcarro-1578153671498.web.app/search
+18:08:33.594  INFO  manager.MyListener - WebDriver start find element---->By.id: city
+18:08:33.650  INFO  manager.MyListener - WebDriver found element by locator---->By.id: city
+18:08:34.928  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: .pac-item
+18:08:34.947  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: .pac-item
+18:08:36.168  INFO  manager.MyListener - WebDriver start find element---->By.id: dates
+18:08:36.186  INFO  manager.MyListener - WebDriver found element by locator---->By.id: dates
+18:08:36.480  INFO  manager.MyListener - WebDriver start find element---->By.xpath: //div[text()=' 20 ']
+18:08:36.495  INFO  manager.MyListener - WebDriver found element by locator---->By.xpath: //div[text()=' 20 ']
+18:08:36.713  INFO  manager.MyListener - WebDriver start find element---->By.xpath: //div[text()=' 31 ']
+18:08:36.726  INFO  manager.MyListener - WebDriver found element by locator---->By.xpath: //div[text()=' 31 ']
+18:08:36.963  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[type='submit']
+18:08:36.976  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[type='submit']
+18:08:42.496  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: .logo
+18:08:42.509  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: .logo
+18:08:42.528  INFO  manager.MyListener - The name of method with error-->click
+18:08:42.528  INFO  manager.MyListener - We have a problem--->org.openqa.selenium.ElementClickInterceptedException: Element <a class="logo" href="/"> is not clickable at point (348,34) because another element <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"> obscures it
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-O54QV38', ip: '192.168.14.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [eee5f222-17f6-4416-a8dd-1622e389f11e, clickElement {id=09282310-6d20-4d73-8c00-067893233635}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:53983, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 27588, moz:profile: C:\Users\allan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:53983/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (eee5f222-17f6-4416-a8dd-1622e389f11e)] -> css selector: .logo]
+Session ID: eee5f222-17f6-4416-a8dd-1622e389f11e

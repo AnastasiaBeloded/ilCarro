@@ -1,0 +1,20 @@
+18:45:00.588  INFO  manager.ApplicationManager - All tests run in chrome browser
+18:45:02.451  INFO  manager.ApplicationManager - Current Url---->https://ilcarro-1578153671498.web.app/search
+18:45:02.479  INFO  manager.MyListener - WebDriver start find element---->By.id: city
+18:45:02.505  INFO  manager.MyListener - WebDriver found element by locator---->By.id: city
+18:45:03.630  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: .pac-item
+18:45:03.650  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: .pac-item
+18:45:04.188  INFO  manager.MyListener - WebDriver start find element---->By.id: dates
+18:45:04.212  INFO  manager.MyListener - WebDriver found element by locator---->By.id: dates
+18:45:04.281  INFO  manager.MyListener - WebDriver start find element---->By.id: dates
+18:45:04.300  INFO  manager.MyListener - WebDriver found element by locator---->By.id: dates
+18:45:04.394  INFO  manager.MyListener - WebDriver start find element---->By.xpath: //div[text()=' 25 ']
+18:45:04.425  INFO  manager.MyListener - WebDriver found element by locator---->By.xpath: //div[text()=' 25 ']
+18:45:04.523  INFO  manager.MyListener - WebDriver start find element---->By.xpath: //div[text()=' 31 ']
+18:45:04.551  INFO  manager.MyListener - WebDriver found element by locator---->By.xpath: //div[text()=' 31 ']
+18:45:04.605  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[type='submit']
+18:45:04.625  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[type='submit']
+18:45:04.669  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[type='submit']
+18:45:04.689  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[type='submit']
+18:45:06.037  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: .logo
+18:45:06.058  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: .logo

@@ -1,0 +1,14 @@
+20:36:21.818  INFO  manager.ApplicationManager - All tests run in chrome browser
+20:36:23.681  INFO  manager.ApplicationManager - Current Url---->https://ilcarro-1578153671498.web.app/search
+20:36:28.728  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div[class='header'] a:nth-child(5)
+20:36:28.744  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div[class='header'] a:nth-child(5)
+20:36:29.004  INFO  manager.MyListener - WebDriver start find element---->By.id: name
+20:36:29.016  INFO  manager.MyListener - WebDriver found element by locator---->By.id: name
+20:36:29.757  INFO  manager.MyListener - WebDriver start find element---->By.id: lastName
+20:36:29.773  INFO  manager.MyListener - WebDriver found element by locator---->By.id: lastName
+20:36:30.500  INFO  manager.MyListener - WebDriver start find element---->By.id: email
+20:36:30.512  INFO  manager.MyListener - WebDriver found element by locator---->By.id: email
+20:36:31.259  INFO  manager.MyListener - WebDriver start find element---->By.id: password
+20:36:31.268  INFO  manager.MyListener - WebDriver found element by locator---->By.id: password
+20:36:32.024  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[type='submit']
+20:36:32.040  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[type='submit']

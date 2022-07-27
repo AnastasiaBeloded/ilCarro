@@ -1,0 +1,28 @@
+18:36:32.842  INFO  manager.ApplicationManager - All tests run in chrome browser
+18:36:34.648  INFO  manager.ApplicationManager - Current Url---->https://ilcarro-1578153671498.web.app/search
+18:36:34.679  INFO  manager.MyListener - WebDriver start find element---->By.id: city
+18:36:34.703  INFO  manager.MyListener - WebDriver found element by locator---->By.id: city
+18:36:35.818  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: .pac-item
+18:36:35.839  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: .pac-item
+18:36:36.383  INFO  manager.MyListener - WebDriver start find element---->By.id: dates
+18:36:36.404  INFO  manager.MyListener - WebDriver found element by locator---->By.id: dates
+18:36:36.480  INFO  manager.MyListener - WebDriver start find element---->By.id: dates
+18:36:36.498  INFO  manager.MyListener - WebDriver found element by locator---->By.id: dates
+18:36:36.582  INFO  manager.MyListener - WebDriver start find element---->By.xpath: //div[text()=' 20 ']
+18:36:36.614  INFO  manager.MyListener - WebDriver found element by locator---->By.xpath: //div[text()=' 20 ']
+18:36:36.661  INFO  manager.MyListener - WebDriver start find element---->By.xpath: //div[text()=' 31 ']
+18:36:36.697  INFO  manager.MyListener - WebDriver found element by locator---->By.xpath: //div[text()=' 31 ']
+18:36:36.762  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[type='submit']
+18:36:36.781  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[type='submit']
+18:36:42.095  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: .logo
+18:36:42.117  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: .logo
+18:36:43.217  INFO  manager.MyListener - The name of method with error-->click
+18:36:43.217  INFO  manager.MyListener - We have a problem--->org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-ton-c25="" href="/" class="logo">...</a> is not clickable at point (348, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-O54QV38', ip: '192.168.14.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6a0bfe9dc18a277e7663d9d37ae22bf2, clickElement {id=ebdf05dd-a506-4978-8969-acd3f4b56390}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.27 (df4a85108ffa..., userDataDir: C:\Users\allan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64103}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64103/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6a0bfe9dc18a277e7663d9d37ae22bf2)] -> css selector: .logo]
+Session ID: 6a0bfe9dc18a277e7663d9d37ae22bf2

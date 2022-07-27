@@ -1,0 +1,24 @@
+21:00:48.735  INFO  manager.ApplicationManager - All tests run in chrome browser
+21:00:50.542  INFO  manager.ApplicationManager - Current Url---->https://ilcarro-1578153671498.web.app/search
+21:00:55.581  INFO  tests.LoginTest - Test stars with email: noa@gmail.com and password: Nnoa12345$
+21:00:55.581  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div[class='header'] a:nth-child(6)
+21:00:55.600  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div[class='header'] a:nth-child(6)
+21:00:55.850  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: #email
+21:00:55.865  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: #email
+21:00:57.066  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: #p
+21:01:02.080  INFO  manager.MyListener - The name of method with error-->findElement
+21:01:02.083  INFO  manager.MyListener - We have a problem--->org.openqa.selenium.WebDriverException: TypeError: browsingContext.currentWindowGlobal is null
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-O54QV38', ip: '192.168.14.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2fd951b1-a481-4b9d-a243-5d4732a90dbd, findElement {using=css selector, value=#p}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:52818, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 1248, moz:profile: C:\Users\allan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:52818/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2fd951b1-a481-4b9d-a243-5d4732a90dbd
+21:01:02.172  INFO  manager.MyListener - The name of method with error-->findElements
+21:01:02.172  INFO  manager.MyListener - We have a problem--->org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-O54QV38', ip: '192.168.14.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [2fd951b1-a481-4b9d-a243-5d4732a90dbd, findElements {using=xpath, value=//button[text()='Ok']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:52818, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 1248, moz:profile: C:\Users\allan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:52818/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2fd951b1-a481-4b9d-a243-5d4732a90dbd

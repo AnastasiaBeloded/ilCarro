@@ -1,0 +1,12 @@
+17:53:37.175  INFO  manager.ApplicationManager - All tests run in chrome browser
+17:53:39.523  INFO  manager.ApplicationManager - Current Url---->https://ilcarro-1578153671498.web.app/search
+17:53:39.550  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: .ng-touched.ng-dirty.ng-valid
+17:53:44.578  INFO  manager.MyListener - The name of method with error-->findElement
+17:53:44.581  INFO  manager.MyListener - We have a problem--->org.openqa.selenium.NoSuchElementException: Unable to locate element: .ng-touched.ng-dirty.ng-valid
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-O54QV38', ip: '192.168.14.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [cf7eb65d-47dd-4c4c-8230-5a07aa0d976d, findElement {using=css selector, value=.ng-touched.ng-dirty.ng-valid}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:58887, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 28964, moz:profile: C:\Users\allan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:58887/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cf7eb65d-47dd-4c4c-8230-5a07aa0d976d

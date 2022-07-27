@@ -58,9 +58,17 @@ public class HelperBase {
 
     public void jsexample(){
         JavascriptExecutor js =(JavascriptExecutor) wd;
-        js.executeScript("document.querySelector('#name').value='Lola';");
+        //js.executeScript("document.querySelector('#name').value='Lola';");
+        //js.executeScript("document.querySelector('button[type=\"submit\"]').click");
+        //js.executeScript("document.querySelector('#terms-of-use').checked=true;");
+       // js.executeScript("document.querySelector('button[type=\"submit\"]').click");
+        js.executeScript("document.querySelector('#terms-of-use').click();");
         js.executeScript("document.querySelector('#terms-of-use').checked=true;");
-        js.executeScript("document.querySelector('button[type=\"submit\"]').click");
+    }
+    public void  jsexampleFalse(){
+        JavascriptExecutor js = (JavascriptExecutor)wd;
+        js.executeScript("document.querySelector('#terms-of-use').click();");
+        js.executeScript("document.querySelector('#terms-of-use').checked=false;");
     }
 
     public void takeScreenShots(String pathToFile){
@@ -74,4 +82,15 @@ public class HelperBase {
         }
 
     }
+    public boolean isYallaButtonNotActive() {
+        boolean disabled = isElementPresent(By.cssSelector("button[disabled]"));
+        boolean enabled = wd.findElement(By.cssSelector("[type=submit]")).isEnabled();
+        return disabled && !enabled;
+    }
+
+   public void submitWithoutWait() {
+        wd.findElement(By.cssSelector("button[type='submit']")).click();
+    }
+
+
 }

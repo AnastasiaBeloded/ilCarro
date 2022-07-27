@@ -1,7 +1,6 @@
 package manager;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -14,6 +13,7 @@ public class HelperSearch extends HelperBase {
 
     public void searchCurrentMonth(String city, String dataFrom, String dataTo) {
         typeCity(city);
+        clearPeriod();
         selectPeriodCurrentMonth(dataFrom, dataTo);
     }
 
@@ -30,6 +30,19 @@ public class HelperSearch extends HelperBase {
 
     }
 
+    private void clearPeriod() {
+        WebElement el =wd.findElement(By.id("dates"));
+        String osName = System.getProperty("os.name");
+        System.out.println(osName);//Windows 10
+        if(osName.startsWith("Win")) {
+            el.sendKeys(Keys.CONTROL, "a");
+        }else{el.sendKeys(Keys.COMMAND,"a");}
+        el.sendKeys(Keys.DELETE);
+
+        }
+
+
+
     private void typeCity(String city) {
         type(By.id("city"), city);
         pause(500);
@@ -39,6 +52,7 @@ public class HelperSearch extends HelperBase {
 
     public void searchCurrentYear(String city, String dataFrom, String dataTo) {
         typeCity(city);
+        clearPeriod();
         selectPeriodCurrentYear(dataFrom, dataTo);
 
     }
@@ -65,6 +79,8 @@ public class HelperSearch extends HelperBase {
         click(By.xpath(locator1));
     }
     public void searchNextMonth(String city, String dataFrom, String dataTo) {
+        typeCity(city);
+        clearPeriod();
         click(By.id("dates"));
         click(By.cssSelector("button[aria-label='Next month']"));
 
@@ -85,6 +101,7 @@ public class HelperSearch extends HelperBase {
     }
     public void searchCurrentYearLocalDate(String city, String dataFrom, String dataTo) {
         typeCity(city);
+        clearPeriod();
         LocalDate now = LocalDate.now();
         LocalDate from = LocalDate.parse(dataFrom, DateTimeFormatter.ofPattern("M/d/yyyy"));
         LocalDate to = LocalDate.parse(dataTo,DateTimeFormatter.ofPattern("M/d/yyyy"));
@@ -108,6 +125,7 @@ public class HelperSearch extends HelperBase {
     }
     public void searchAnyPeriodYearLocalDate(String city, String dataFrom, String dataTo) {
         typeCity(city);
+        clearPeriod();
         LocalDate now = LocalDate.now();
         LocalDate from = LocalDate.parse(dataFrom, DateTimeFormatter.ofPattern("M/d/yyyy"));
         LocalDate to = LocalDate.parse(dataTo,DateTimeFormatter.ofPattern("M/d/yyyy"));
@@ -141,6 +159,7 @@ public class HelperSearch extends HelperBase {
     }
     public void searchAnyPeriodYearLocalDate2(String city, String dataFrom, String dataTo){
         typeCity(city);
+        clearPeriod();
         LocalDate now = LocalDate.now();
         LocalDate from = LocalDate.parse(dataFrom, DateTimeFormatter.ofPattern("M/d/yyyy"));
         LocalDate to = LocalDate.parse(dataTo,DateTimeFormatter.ofPattern("M/d/yyyy"));
@@ -173,12 +192,17 @@ public class HelperSearch extends HelperBase {
         click(By.cssSelector(".logo"));
     }
 
+    public void searchPastPeriod(String city, String dataFrom, String dataTo) {
+        typeCity(city);
+        clearPeriod();
+        type(By.id("dates"),dataFrom+" - "+dataTo);
+        click(By.cssSelector(".cdk-overlay-container"));
+    }
 
 
-
-
-
-
+    public boolean isPeriodInPast() {
+        return wd.findElement(By.cssSelector("div.error div")).getText().equals("You can't pick date before today");
+    }
 }
 
 

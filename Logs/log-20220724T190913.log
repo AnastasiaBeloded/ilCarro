@@ -1,0 +1,80 @@
+19:09:16.990  INFO  manager.ApplicationManager - All tests run in chrome browser
+19:09:18.651  INFO  manager.ApplicationManager - Current Url---->https://ilcarro-1578153671498.web.app/search
+19:09:23.720  INFO  tests.LoginTest - Test stars with email: noam@gmail.com&password:Nnoa12345$
+19:09:23.720  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div[class='header'] a:nth-child(6)
+19:09:23.744  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div[class='header'] a:nth-child(6)
+19:09:23.809  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: #email
+19:09:23.843  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: #email
+19:09:25.303  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: #password
+19:09:25.323  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: #password
+19:09:25.919  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[type='submit']
+19:09:25.938  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[type='submit']
+19:09:25.972  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[type='submit']
+19:09:25.988  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[type='submit']
+19:09:26.024  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div.dialog-container
+19:09:27.178  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div.dialog-container
+19:09:27.200  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div.dialog-container h1
+19:09:27.221  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div.dialog-container h1
+19:09:27.245  INFO  tests.LoginTest - Test passed
+19:09:27.266  INFO  manager.MyListener - WebDriver start find element---->By.xpath: //button[text()='Ok']
+19:09:27.291  INFO  manager.MyListener - WebDriver found element by locator---->By.xpath: //button[text()='Ok']
+19:09:27.340  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div[class='header'] a:nth-child(5)
+19:09:27.357  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div[class='header'] a:nth-child(5)
+19:09:27.408  INFO  tests.LoginTest - Test stars with email: sonya@gmail.com&password:Ss12345$
+19:09:27.408  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div[class='header'] a:nth-child(6)
+19:09:27.423  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div[class='header'] a:nth-child(6)
+19:09:27.463  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: #email
+19:09:27.477  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: #email
+19:09:28.855  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: #password
+19:09:28.870  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: #password
+19:09:29.465  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[type='submit']
+19:09:29.478  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[type='submit']
+19:09:29.500  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[type='submit']
+19:09:29.512  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[type='submit']
+19:09:29.546  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div.dialog-container
+19:09:30.427  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div.dialog-container
+19:09:30.442  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div.dialog-container h1
+19:09:30.457  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div.dialog-container h1
+19:09:30.469  INFO  tests.LoginTest - Test passed
+19:09:30.483  INFO  manager.MyListener - WebDriver start find element---->By.xpath: //button[text()='Ok']
+19:09:30.497  INFO  manager.MyListener - WebDriver found element by locator---->By.xpath: //button[text()='Ok']
+19:09:30.543  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div[class='header'] a:nth-child(5)
+19:09:30.557  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div[class='header'] a:nth-child(5)
+19:09:30.610  INFO  tests.LoginTest - Test stars with email: noam@gmail.com&password:Nnoa12345$
+19:09:30.610  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div[class='header'] a:nth-child(6)
+19:09:30.625  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div[class='header'] a:nth-child(6)
+19:09:30.665  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: #email
+19:09:30.680  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: #email
+19:09:32.056  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: #password
+19:09:32.072  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: #password
+19:09:32.674  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[type='submit']
+19:09:32.686  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[type='submit']
+19:09:32.713  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[type='submit']
+19:09:32.727  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[type='submit']
+19:09:32.765  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div.dialog-container
+19:09:33.828  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div.dialog-container
+19:09:33.842  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div.dialog-container h1
+19:09:33.854  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div.dialog-container h1
+19:09:33.867  INFO  tests.LoginTest - Test passed
+19:09:33.881  INFO  manager.MyListener - WebDriver start find element---->By.xpath: //button[text()='Ok']
+19:09:33.894  INFO  manager.MyListener - WebDriver found element by locator---->By.xpath: //button[text()='Ok']
+19:09:33.943  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div[class='header'] a:nth-child(5)
+19:09:33.955  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div[class='header'] a:nth-child(5)
+19:09:34.017  INFO  tests.LoginTest - Test stars with email: sonya@gmail.com&password:Ss12345$
+19:09:34.018  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div[class='header'] a:nth-child(6)
+19:09:34.040  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div[class='header'] a:nth-child(6)
+19:09:34.081  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: #email
+19:09:34.096  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: #email
+19:09:35.446  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: #password
+19:09:35.460  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: #password
+19:09:36.061  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[type='submit']
+19:09:36.072  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[type='submit']
+19:09:36.094  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[type='submit']
+19:09:36.105  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[type='submit']
+19:09:36.136  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div.dialog-container
+19:09:37.136  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div.dialog-container
+19:09:37.147  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div.dialog-container h1
+19:09:37.156  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div.dialog-container h1
+19:09:37.167  INFO  tests.LoginTest - Test passed
+19:09:37.178  INFO  manager.MyListener - WebDriver start find element---->By.xpath: //button[text()='Ok']
+19:09:37.188  INFO  manager.MyListener - WebDriver found element by locator---->By.xpath: //button[text()='Ok']

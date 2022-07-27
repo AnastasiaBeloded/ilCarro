@@ -1,0 +1,12 @@
+17:51:29.475  INFO  manager.ApplicationManager - All tests run in chrome browser
+17:51:31.964  INFO  manager.ApplicationManager - Current Url---->https://ilcarro-1578153671498.web.app/search
+17:51:31.992  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector:  .ng-touched.ng-dirty.ng-valid[formcontrolname='dates']
+17:51:37.012  INFO  manager.MyListener - The name of method with error-->findElement
+17:51:37.015  INFO  manager.MyListener - We have a problem--->org.openqa.selenium.NoSuchElementException: Unable to locate element:  .ng-touched.ng-dirty.ng-valid[formcontrolname='dates']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-O54QV38', ip: '192.168.14.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0c2d2263-4a45-40d8-b29d-f9abda599b6a, findElement {using=css selector, value= .ng-touched.ng-dirty.ng-valid[formcontrolname='dates']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:62200, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 19156, moz:profile: C:\Users\allan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:62200/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0c2d2263-4a45-40d8-b29d-f9abda599b6a

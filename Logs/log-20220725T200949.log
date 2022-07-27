@@ -1,0 +1,26 @@
+20:09:53.846  INFO  manager.ApplicationManager - All tests run in chrome browser
+20:09:55.647  INFO  manager.ApplicationManager - Current Url---->https://ilcarro-1578153671498.web.app/search
+20:10:00.702  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div[class='header'] a:nth-child(5)
+20:10:00.718  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div[class='header'] a:nth-child(5)
+20:10:00.966  INFO  manager.MyListener - WebDriver start find element---->By.id: name
+20:10:00.989  INFO  manager.MyListener - WebDriver found element by locator---->By.id: name
+20:10:01.739  INFO  manager.MyListener - WebDriver start find element---->By.id: lastName
+20:10:01.753  INFO  manager.MyListener - WebDriver found element by locator---->By.id: lastName
+20:10:02.489  INFO  manager.MyListener - WebDriver start find element---->By.id: email
+20:10:02.501  INFO  manager.MyListener - WebDriver found element by locator---->By.id: email
+20:10:03.254  INFO  manager.MyListener - WebDriver start find element---->By.id: password
+20:10:03.266  INFO  manager.MyListener - WebDriver found element by locator---->By.id: password
+20:10:04.002  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: label[for='terms-of-use']
+20:10:04.022  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: label[for='terms-of-use']
+20:10:04.386  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[type='submit']
+20:10:04.398  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[type='submit']
+20:10:05.116  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div.dialog-container
+20:10:10.141  INFO  manager.MyListener - The name of method with error-->findElement
+20:10:10.145  INFO  manager.MyListener - We have a problem--->org.openqa.selenium.NoSuchElementException: Unable to locate element: div.dialog-container
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-O54QV38', ip: '192.168.14.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [45d718cc-96ec-42cf-b8bf-02fc228aebfc, findElement {using=css selector, value=div.dialog-container}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:64133, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 19736, moz:profile: C:\Users\allan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:64133/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 45d718cc-96ec-42cf-b8bf-02fc228aebfc

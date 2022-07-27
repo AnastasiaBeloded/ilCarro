@@ -1,0 +1,24 @@
+20:33:45.258  INFO  manager.ApplicationManager - All tests run in chrome browser
+20:33:47.195  INFO  manager.ApplicationManager - Current Url---->https://ilcarro-1578153671498.web.app/search
+20:33:52.256  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div[class='header'] a:nth-child(5)
+20:33:52.272  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: div[class='header'] a:nth-child(5)
+20:33:52.531  INFO  manager.MyListener - WebDriver start find element---->By.id: name
+20:33:52.543  INFO  manager.MyListener - WebDriver found element by locator---->By.id: name
+20:33:53.287  INFO  manager.MyListener - WebDriver start find element---->By.id: lastName
+20:33:53.304  INFO  manager.MyListener - WebDriver found element by locator---->By.id: lastName
+20:33:54.038  INFO  manager.MyListener - WebDriver start find element---->By.id: email
+20:33:54.051  INFO  manager.MyListener - WebDriver found element by locator---->By.id: email
+20:33:54.796  INFO  manager.MyListener - WebDriver start find element---->By.id: password
+20:33:54.817  INFO  manager.MyListener - WebDriver found element by locator---->By.id: password
+20:33:55.577  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: button[type='submit']
+20:33:55.589  INFO  manager.MyListener - WebDriver found element by locator---->By.cssSelector: button[type='submit']
+20:33:56.298  INFO  manager.MyListener - WebDriver start find element---->By.cssSelector: div.dialog-container
+20:34:01.310  INFO  manager.MyListener - The name of method with error-->findElement
+20:34:01.314  INFO  manager.MyListener - We have a problem--->org.openqa.selenium.NoSuchElementException: Unable to locate element: div.dialog-container
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-O54QV38', ip: '192.168.14.148', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [caa79d15-b95b-4271-9d89-d6cf12bfd373, findElement {using=css selector, value=div.dialog-container}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:debuggerAddress: localhost:59793, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 22028, moz:profile: C:\Users\allan\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:59793/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: caa79d15-b95b-4271-9d89-d6cf12bfd373

@@ -28,12 +28,12 @@ public class HelperUser extends HelperBase {
     public void fillLoginForm(String email, String password) {
         type(By.cssSelector("#email"), email);//type(By.id("email"),email);
         takeScreenShots("src/test/screenshots/screen-1.png");
-        type(By.cssSelector("#p"), password);//type(By.id("password"),password);
+        type(By.cssSelector("#password"), password);//type(By.id("password"),password);
 
 
     }
 
-    private void fillLoginForm(User user) {
+    public void fillLoginForm(User user) {
         type(By.cssSelector("#email"), user.getEmail());
         type(By.cssSelector("#password"), user.getPassword());
 
@@ -69,9 +69,9 @@ public class HelperUser extends HelperBase {
     }
 
     public void termsOfUse() {
-        // WebElement termsOfUse = wd.findElement(By.cssSelector(".ng-touched.ng-invalid"));
-        //  WebElement termsOfUse = wd.findElement(By.cssSelector("label.checkbox-label.terms-label"));
-        //termsOfUse.click();
+         //WebElement termsOfUse = wd.findElement(By.cssSelector(".ng-touched.ng-invalid"));
+         WebElement termsOfUse = wd.findElement(By.cssSelector("label.checkbox-label.terms-label"));
+        termsOfUse.click();
         click(By.cssSelector("label[for='terms-of-use']"));
 
     }
@@ -117,11 +117,7 @@ public class HelperUser extends HelperBase {
                                 "Password must contain minimum 8 symbols"));
     }
 
-    public boolean isYallaButtonNotActive() {
-        boolean disabled = isElementPresent(By.cssSelector("button[disabled]"));
-        boolean enabled = wd.findElement(By.cssSelector("[type=submit]")).isEnabled();
-        return disabled && !enabled;
-    }
+
 
     public void login(User user) {
         openLoginForm();
