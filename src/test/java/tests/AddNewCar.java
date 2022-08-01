@@ -19,7 +19,7 @@ public class AddNewCar extends TestBase{
             app.getHelperUser().login(new User().setEmail("noa@gmail.com").setPassword("Nnoa12345$"));
         }
     }
-
+//jen
 
     @Test(groups = {"web","smoke","regres"})
     public void addNewCarSuccess() {
