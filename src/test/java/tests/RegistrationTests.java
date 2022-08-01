@@ -22,7 +22,7 @@ public class RegistrationTests extends TestBase{
 
     public void registrationSuccess(User user){
 
-        int i = (int)System.currentTimeMillis()/1000%3600;
+        //int i = (int)System.currentTimeMillis()/1000%3600;
 
 
         //User user = new User().setName("Mia").setLastName("Bio").setEmail("mia"+i+"@gmail.com").setPassword("Bio12345$");

@@ -56,7 +56,7 @@ public class AddNewCar extends TestBase{
    /* @Test(dataProvider = "dataCreateNewCar2",dataProviderClass = MyDataProvider.class)
 
     public void addNewCarSuccessDP(Car car) {
-        logger.info("Test stars with email:");
+
         app.car().openCarForm();
         app.car().fillCarForm(car);
         app.car().attachPhoto("C:\\Users\\allan\\Documents\\GitHub\\ilCarro\\90de9d5fee22c74aeb5c9de1f7c628e0.png");
